@@ -10,7 +10,7 @@ public class Shape {
 	private int sides;
 	
 	// total number of shapes
-	public static int numberofShapes;
+	private static int numberofShapes;
 	
 	public Shape(){
 		
@@ -33,7 +33,10 @@ public class Shape {
 		
 		return "Shape: " + name + "\n" + "No. of sides: " + sides;
 	}
-	
-	
+
+	//gets number of shapes
+	public static int getNumberofShapes() {
+		return numberofShapes;
+	}	
 	
 }

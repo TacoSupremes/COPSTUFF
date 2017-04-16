@@ -18,7 +18,7 @@ public class ShapeTest {
 		Scanner scan = new Scanner(System.in);
 		
 		//print info on shapes
-		System.out.println("Enter info on " + Shape.numberofShapes + " shapes:");
+		System.out.println("Enter info on " + Shape.getNumberofShapes() + " shapes:");
 		
 		//ask for name of shape
 		System.out.println("Enter the name of the shape: ");
@@ -63,7 +63,7 @@ public class ShapeTest {
 		s3.setSides(scan.nextInt());
 		
 		// print info using number of shapes
-		System.out.println("Here is the info you entered for the " + Shape.numberofShapes + " shapes: ");
+		System.out.println("Here is the info you entered for the " + Shape.getNumberofShapes() + " shapes: ");
 		
 		//print 1st shape
 		System.out.println(s1.toString());
